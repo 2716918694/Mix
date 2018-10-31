@@ -1,0 +1,5 @@
+{"properties": [{
+  "name": "spring.datasource.druid.web-stat-filter.session-stat-max-count",
+  "type": "java.lang.String",
+  "description": "A description for 'spring.datasource.druid.web-stat-filter.session-stat-max-count'"
+}]}

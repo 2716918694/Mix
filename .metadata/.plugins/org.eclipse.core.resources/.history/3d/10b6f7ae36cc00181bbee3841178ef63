@@ -1,0 +1,28 @@
+package com.wyk.sys.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class WebController {
+	
+	@RequestMapping(value= {"","/","/index"})
+	public String showIndex() {
+		return "index";
+	}
+	
+	@RequestMapping(value="/login")
+	public String showLogin(Model model,@PathVariable String str) {
+		if(str!=null) {
+			model.addAttribute("error", true);
+		}
+		return "login";
+	}
+	
+	@RequestMapping(value="/register")
+	public String showReg() {
+		return "register";
+	}
+}

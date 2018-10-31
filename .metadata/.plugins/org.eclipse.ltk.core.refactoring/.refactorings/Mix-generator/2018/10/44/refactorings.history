@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;Mix-generator&apos;&#x0D;&#x0A;- Original project: &apos;Mix-generator&apos;&#x0D;&#x0A;- Original element: &apos;Mix-generator/src/main/java/com.wyk.sys&apos;&#x0D;&#x0A;- Delete subpackages" description="Delete element" element1="/src\/main\/java&lt;com.wyk.sys.service.impl" element2="/src\/main\/java&lt;com.wyk.sys.service" element3="/src\/main\/java&lt;com.wyk.sys.mapper" element4="/src\/main\/java&lt;com.wyk.sys.entity" element5="/src\/main\/java&lt;com.wyk.sys.controller" element6="/src\/main\/java&lt;com.wyk.sys" elements="6" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1540883093531" subPackages="true" version="1.0"/>
+</session>

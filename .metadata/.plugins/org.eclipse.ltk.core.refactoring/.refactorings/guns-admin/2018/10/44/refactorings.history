@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;GlobalExceptionHandler.java&apos; to &apos;Mix/src/main/java/com.wyk.entry.aop&apos;&#x0D;&#x0A;- Original project: &apos;guns-admin&apos;&#x0D;&#x0A;- Destination element: &apos;Mix/src/main/java/com.wyk.entry.aop&apos;&#x0D;&#x0A;- Original element: &apos;com.stylefeng.guns.core.aop.GlobalExceptionHandler.java&apos;" description="Copy compilation unit" destination="=Mix/src\/main\/java&lt;com.wyk.entry.aop" element1="/src\/main\/java&lt;com.stylefeng.guns.core.aop{GlobalExceptionHandler.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1540886714921" units="1" version="1.0"/>
+</session>

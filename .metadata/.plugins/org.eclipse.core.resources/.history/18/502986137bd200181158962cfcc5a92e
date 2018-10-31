@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="UTF-8">
+<title>Header</title>
+</head>
+<body>
+	<div th:fragment="header">
+		<div class="tip">
+			<img id="logo" th:src="@{img/logo-simple.png}">
+			<ul th:if="${session.user}">
+				<li><a href="#" th:href="@{/logout}">退出</a></li>
+				<li><a href="#" th:text="${session.user.name}"></a></li>
+			</ul>
+			<ul th:if="${session.user==null}">
+				<li><a href="#">注册</a></li>
+				<li><a href="#" th:href="@{/login}">登陆</a></li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>

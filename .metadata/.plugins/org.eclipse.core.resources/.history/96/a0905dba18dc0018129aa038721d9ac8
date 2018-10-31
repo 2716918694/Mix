@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>首页index</title>
+<link rel="stylesheet" type="text/css" th:href="@{/css/common/header.css}"/>
+</head>
+<body>
+	<div th:include="public/header :: header"></div>
+	<h1>Welcome to this project MIX</h1>
+</body>
+</html>

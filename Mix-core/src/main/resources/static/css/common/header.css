@@ -1,0 +1,26 @@
+.tip {
+	height: 50px;
+	background-color: #eee;
+	line-height: 50px;
+	font-size: 13px;
+}
+
+.tip img {
+	height: 100%;
+}
+
+.tip ul {
+	height: 100%;
+	line-height: 50px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: inline;
+}
+
+.tip li {
+	height: 100%;
+	display: inline-block;
+	float: right;
+	margin-right: 15px;
+}

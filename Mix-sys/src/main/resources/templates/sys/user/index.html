@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="UTF-8">
+<title>用戶首頁</title>
+<link rel="stylesheet" type="text/css" th:href="@{/css/common/header.css}"/>
+</head>
+<body>
+	<div th:include="public/header :: header"></div>
+	<H2>当前登陆用户为(current user is)：<span th:text="${session.user.username}"></span></H2>
+	<div><a href="#" th:href="@{/logout}" class="btn btn-primary btn-block">Logout And Back to Login page</a></div>
+</body>
+</html>

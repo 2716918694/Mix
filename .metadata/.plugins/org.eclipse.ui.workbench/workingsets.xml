@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1539330701965_1" label="guns-parent" name="guns-parent">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/guns-admin" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/guns-sso-server" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/guns-example-client" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/guns-rest" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/guns-sso-plugin" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/guns-core" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/guns-generator" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/guns-parent" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1540713811909_2" label="slife" name="slife"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1539004535740_0" label="Window Working Set" name="Aggregate for window 1539004535739"/>
+</workingSetManager>

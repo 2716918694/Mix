@@ -1,0 +1,6 @@
+package com.wyk.soap;
+
+@WebService
+public interface IMyService {
+
+}

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>首页index</title>
+<link rel="stylesheet" type="text/css" th:href="@{/css/common/header.css}"/>
+</head>
+<body>
+	<div th:include="public/header :: header"></div>
+	<h1>Welcome to visit this project MIX</h1>
+	<h3>this is just a web project for practice about java coding,but its planned to be devlope with muti-moudels</h3>
+</body>
+</html>
