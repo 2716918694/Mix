@@ -76,7 +76,8 @@
 		<!-- FileUpload -->
 		<!-- <dependency> <groupId>commons-fileupload</groupId> <artifactId>commons-fileupload</artifactId> 
 			<version>${fileupload.version}</version> </dependency> <dependency> <groupId>javax.servlet</groupId> 
-			<artifactId>jstl</artifactId> <version>${jstl.version}</version> </dependency> -->
+			<artifactId>jstl</artifactId> <version>${jstl.version}</version> 
+		</dependency> -->
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

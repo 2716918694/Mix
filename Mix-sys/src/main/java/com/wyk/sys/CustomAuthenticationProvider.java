@@ -83,7 +83,7 @@ public class CustomAuthenticationProvider implements AuthenticationProvider {
 		
 		// 用户信息有效时将其放入 session 中
 		session.setAttribute("user", user);
-		Authentication auth = new UsernamePasswordAuthenticationToken(username, password, grantedAuthorities);
+		Authentication auth = new UsernamePasswordAuthenticationToken(user, password, grantedAuthorities);
 		return auth;
 	}
 

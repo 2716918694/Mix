@@ -1,8 +1,6 @@
 package com.wyk.sys.entity;
 
 import com.baomidou.mybatisplus.annotation.TableName;
-import com.wyk.common.entity.BaseEntity;
-
 import java.time.LocalDateTime;
 import java.util.Collection;
 
@@ -88,27 +86,7 @@ public class User extends BaseEntity implements UserDetails {
 	 * 最后登陆时间
 	 */
 	private LocalDateTime loginDate;
-
-	/**
-	 * 创建者
-	 */
-	private String createBy;
-
-	/**
-	 * 创建时间
-	 */
-	private LocalDateTime createDate;
-
-	/**
-	 * 更新者
-	 */
-	private String updateBy;
-
-	/**
-	 * 更新时间
-	 */
-	private LocalDateTime updateDate;
-
+	
 	/**
 	 * 备注信息
 	 */
@@ -213,38 +191,6 @@ public class User extends BaseEntity implements UserDetails {
 		this.loginDate = loginDate;
 	}
 
-	public String getCreateBy() {
-		return createBy;
-	}
-
-	public void setCreateBy(String createBy) {
-		this.createBy = createBy;
-	}
-
-	public LocalDateTime getCreateDate() {
-		return createDate;
-	}
-
-	public void setCreateDate(LocalDateTime createDate) {
-		this.createDate = createDate;
-	}
-
-	public String getUpdateBy() {
-		return updateBy;
-	}
-
-	public void setUpdateBy(String updateBy) {
-		this.updateBy = updateBy;
-	}
-
-	public LocalDateTime getUpdateDate() {
-		return updateDate;
-	}
-
-	public void setUpdateDate(LocalDateTime updateDate) {
-		this.updateDate = updateDate;
-	}
-
 	public String getRemarks() {
 		return remarks;
 	}
@@ -332,28 +278,24 @@ public class User extends BaseEntity implements UserDetails {
 		this.userType = userType;
 		this.loginIp = loginIp;
 		this.loginDate = loginDate;
-		this.createBy = createBy;
-		this.createDate = createDate;
-		this.updateBy = updateBy;
-		this.updateDate = updateDate;
 		this.remarks = remarks;
 		this.delFlag = delFlag;
 		this.status = status;
 	}
-	
+
 	@Override
-    public String toString() {
-        return this.username;
-    }
+	public String toString() {
+		return this.username;
+	}
 
-    @Override
-    public int hashCode() {
-        return username.hashCode();
-    }
+	@Override
+	public int hashCode() {
+		return username.hashCode();
+	}
 
-    @Override
-    public boolean equals(Object obj) {
-        return this.toString().equals(obj.toString());
-    }
-	
+	@Override
+	public boolean equals(Object obj) {
+		return this.toString().equals(obj.toString());
+	}
+
 }

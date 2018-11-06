@@ -34,7 +34,7 @@ public class UserController extends ApiController {
 
 	@Autowired
 	private SessionRegistry sessionRegistry;
-	
+
 	@Autowired
 	private IUserService userService;
 
@@ -47,42 +47,30 @@ public class UserController extends ApiController {
 	 */
 	@GetMapping("/api")
 	public Result<String> testError(String test) {
-		return success(test);
+		User user = new User("test1113", "111222");
+		boolean result = userService.saveOrUpdate(user);
+		return success(result ? "over" : "no good");
 	}
 
 	/**
-	 * <p>
-	 * 測試DML語句
-	 * </p>
-	 * 测试地址： http://localhost:8088/sys/user/test2
+	 * 对用户进行注册或修改
+	 * 
+	 * @param user
+	 * @return
 	 */
-
-	@GetMapping("/test2")
-	public Result<String> test2() {
-		User user = new User("test1", "111111");
-		System.err.println("插入一条数据：" + userService.save(user));
-		System.err.println("删除一条数据：" + userService.removeById(1L));
-		boolean result = false;
-		for (int i = 0; i < 10; i++) {
-			user = new User("test" + i, "11111" + i);
-			result = userService.save(user);
-			System.err.println(result ? "over" : "no good");
-		}
-
-		// 自动回写的ID
-		return success(result ? "over" : "no good");
-
-	}
-
-	@GetMapping("/update")
-	public Result<String> update() {
-
-		User user = new User("tt", "111222");
+	@PostMapping("/saveUser")
+	public Result<String> update(User user) {
 		boolean result = userService.saveOrUpdate(user);
 		return success(result ? "over" : "no good");
 
 	}
-
+	
+	/**
+	 * 根据用户名获取用户
+	 * 
+	 * @param username
+	 * @return
+	 */
 	@GetMapping("/loadUser")
 	public User loadByName(String username) {
 
@@ -90,29 +78,35 @@ public class UserController extends ApiController {
 
 	}
 
+	/**
+	 * 分页查询用户
+	 * 
+	 * @return
+	 */
 	@GetMapping("/findAll")
-	public IPage<User> listUser() {
+	public IPage<User> listUser(Integer page, Integer pageSize) {
 
-		return userService.page(new Page<User>(0, 4), null);
+		return userService.page(new Page<User>((page - 1) * pageSize, pageSize), null);
 
 	}
-	
-	@GetMapping("/online")
-	public List<Object> online(){
+
+	@GetMapping("/onlineUser")
+	public List<Object> online() {
 		System.out.println(sessionRegistry.getAllPrincipals().size());
 		return sessionRegistry.getAllPrincipals();
-		
+
 	}
 	
-//	@Deprecated
-//	@PostMapping("/confirm")
-//	public boolean loginConfirm(String username, String password) {
-//		User authentication = userService.getOne(
-//				new QueryWrapper<User>().lambda().eq(User::getUsername, username).eq(User::getPassword, password),
-//				false);
-//		if (authentication != null) {
-//			return true;
-//		}
-//		return false;
-//	}
+	// @Deprecated
+	// @PostMapping("/confirm")
+	// public boolean loginConfirm(String username, String password) {
+	// User authentication = userService.getOne(
+	// new QueryWrapper<User>().lambda().eq(User::getUsername,
+	// username).eq(User::getPassword, password),
+	// false);
+	// if (authentication != null) {
+	// return true;
+	// }
+	// return false;
+	// }
 }
