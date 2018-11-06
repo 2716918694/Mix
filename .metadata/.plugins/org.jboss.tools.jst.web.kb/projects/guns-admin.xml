@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kb-project>
- <depends-on-projects>
-  <project name="guns-sso-plugin"/>
-  <project name="guns-generator"/>
-  <project name="guns-core"/>
- </depends-on-projects>
+ <depends-on-projects/>
  <used-by-projects/>
  <paths>
   <path value="D:/JAVA/tomcat/apache-tomcat-8.5.27/lib/tomcat-jni.jar"/>

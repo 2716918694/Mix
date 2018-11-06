@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kb-project>
- <depends-on-projects>
-  <project name="guns-sso-plugin"/>
-  <project name="guns-core"/>
- </depends-on-projects>
+ <depends-on-projects/>
  <used-by-projects/>
  <paths>
   <path value="C:/Users/Administrator/.m2/repository/com/ibeetl/beetl/2.8.5/beetl-2.8.5.jar"/>

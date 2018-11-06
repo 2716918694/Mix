@@ -67,11 +67,11 @@
    <libraries>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-spring-webmvc-5.0.7.RELEASE.jar/meta-inf/spring-form.tld" project="boot_pacti"/>
+      path="FileSystems/lib-spring-webmvc-5.0.7.RELEASE.jar/meta-inf/spring-form.tld" project="mybatisplus-spring-boot"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-spring-webmvc-5.0.7.RELEASE.jar/meta-inf/spring.tld" project="boot_pacti"/>
+      path="FileSystems/lib-spring-webmvc-5.0.7.RELEASE.jar/meta-inf/spring.tld" project="mybatisplus-spring-boot"/>
     </library>
    </libraries>
   </path>

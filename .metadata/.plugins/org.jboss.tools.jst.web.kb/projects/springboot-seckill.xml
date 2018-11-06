@@ -6,8 +6,14 @@
   <path value="C:/Users/Administrator/.m2/repository/org/thymeleaf/thymeleaf-spring5/3.0.9.RELEASE/thymeleaf-spring5-3.0.9.RELEASE.jar"/>
   <path value="C:/Users/Administrator/.m2/repository/org/springframework/spring-webmvc/5.0.9.RELEASE/spring-webmvc-5.0.9.RELEASE.jar">
    <libraries>
-    <library class="tld"/>
-    <library class="tld"/>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-spring-webmvc-5.0.9.RELEASE.jar/meta-inf/spring-form.tld" project="springboot-seckill"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-spring-webmvc-5.0.9.RELEASE.jar/meta-inf/spring.tld" project="springboot-seckill"/>
+    </library>
    </libraries>
   </path>
   <path value="C:/Users/Administrator/.m2/repository/net/minidev/accessors-smart/1.2/accessors-smart-1.2.jar"/>

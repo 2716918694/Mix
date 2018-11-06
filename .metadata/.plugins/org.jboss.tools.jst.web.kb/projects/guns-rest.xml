@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kb-project>
- <depends-on-projects>
-  <project name="guns-core"/>
- </depends-on-projects>
+ <depends-on-projects/>
  <used-by-projects/>
  <paths>
   <path value="C:/Users/Administrator/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/8.5.29/tomcat-embed-websocket-8.5.29.jar"/>

@@ -59,11 +59,11 @@
    <libraries>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-spring-webmvc-5.0.10.RELEASE.jar/meta-inf/spring-form.tld" project="Mix"/>
+      path="FileSystems/lib-spring-webmvc-5.0.10.RELEASE.jar/meta-inf/spring-form.tld" project="Mix-core"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-spring-webmvc-5.0.10.RELEASE.jar/meta-inf/spring.tld" project="Mix"/>
+      path="FileSystems/lib-spring-webmvc-5.0.10.RELEASE.jar/meta-inf/spring.tld" project="Mix-core"/>
     </library>
    </libraries>
   </path>

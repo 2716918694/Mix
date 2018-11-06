@@ -10,13 +10,13 @@
   <path value="C:/Users/Administrator/.m2/repository/net/minidev/accessors-smart/1.2/accessors-smart-1.2.jar"/>
   <path value="C:/Users/Administrator/.m2/repository/org/unbescape/unbescape/1.1.6.RELEASE/unbescape-1.1.6.RELEASE.jar"/>
   <path value="C:/Users/Administrator/.m2/repository/org/springframework/security/spring-security-config/5.0.9.RELEASE/spring-security-config-5.0.9.RELEASE.jar"/>
-  <path value="C:/Users/Administrator/.m2/repository/org/mybatis/mybatis-spring/1.3.2/mybatis-spring-1.3.2.jar"/>
   <path value="C:/Users/Administrator/.m2/repository/com/baomidou/mybatis-plus-extension/3.0.3/mybatis-plus-extension-3.0.3.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/mybatis/mybatis-spring/1.3.2/mybatis-spring-1.3.2.jar"/>
   <path value="C:/Users/Administrator/.m2/repository/org/springframework/spring-beans/5.0.10.RELEASE/spring-beans-5.0.10.RELEASE.jar"/>
   <path value="C:/Users/Administrator/.m2/repository/org/springframework/spring-context/5.0.10.RELEASE/spring-context-5.0.10.RELEASE.jar"/>
   <path value="C:/Users/Administrator/.m2/repository/org/springframework/boot/spring-boot-test/2.0.6.RELEASE/spring-boot-test-2.0.6.RELEASE.jar"/>
-  <path value="C:/Users/Administrator/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/2.0.6.RELEASE/spring-boot-test-autoconfigure-2.0.6.RELEASE.jar"/>
   <path value="C:/Users/Administrator/.m2/repository/org/hibernate/validator/hibernate-validator/6.0.13.Final/hibernate-validator-6.0.13.Final.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/2.0.6.RELEASE/spring-boot-test-autoconfigure-2.0.6.RELEASE.jar"/>
   <path value="C:/Users/Administrator/.m2/repository/net/minidev/json-smart/2.3/json-smart-2.3.jar"/>
   <path value="C:/Users/Administrator/.m2/repository/org/assertj/assertj-core/3.9.1/assertj-core-3.9.1.jar"/>
   <path value="C:/Users/Administrator/.m2/repository/org/projectlombok/lombok/1.16.22/lombok-1.16.22.jar"/>
@@ -27,10 +27,10 @@
   <path value="C:/Users/Administrator/.m2/repository/com/baomidou/mybatis-plus-generator/3.0.3/mybatis-plus-generator-3.0.3.jar"/>
   <path value="C:/Users/Administrator/.m2/repository/org/xmlunit/xmlunit-core/2.5.1/xmlunit-core-2.5.1.jar"/>
   <path value="C:/Users/Administrator/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.9.7/jackson-module-parameter-names-2.9.7.jar"/>
-  <path value="C:/Users/Administrator/.m2/repository/net/bytebuddy/byte-buddy-agent/1.7.11/byte-buddy-agent-1.7.11.jar"/>
-  <path value="C:/Users/Administrator/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.0.6.RELEASE/spring-boot-autoconfigure-2.0.6.RELEASE.jar"/>
   <path value="C:/Users/Administrator/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.34/tomcat-embed-core-8.5.34.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/net/bytebuddy/byte-buddy-agent/1.7.11/byte-buddy-agent-1.7.11.jar"/>
   <path value="C:/Users/Administrator/.m2/repository/com/alibaba/druid-spring-boot-starter/1.1.9/druid-spring-boot-starter-1.1.9.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.0.6.RELEASE/spring-boot-autoconfigure-2.0.6.RELEASE.jar"/>
   <path value="C:/Users/Administrator/.m2/repository/org/thymeleaf/thymeleaf/3.0.10.RELEASE/thymeleaf-3.0.10.RELEASE.jar"/>
   <path value="C:/Users/Administrator/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.9.7/jackson-datatype-jsr310-2.9.7.jar"/>
   <path value="C:/Users/Administrator/.m2/repository/org/springframework/spring-aop/5.0.10.RELEASE/spring-aop-5.0.10.RELEASE.jar"/>
@@ -70,11 +70,11 @@
    <libraries>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-spring-webmvc-5.0.10.RELEASE.jar/meta-inf/spring-form.tld" project="Mix"/>
+      path="FileSystems/lib-spring-webmvc-5.0.10.RELEASE.jar/meta-inf/spring-form.tld" project="Mix-core"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-spring-webmvc-5.0.10.RELEASE.jar/meta-inf/spring.tld" project="Mix"/>
+      path="FileSystems/lib-spring-webmvc-5.0.10.RELEASE.jar/meta-inf/spring.tld" project="Mix-core"/>
     </library>
    </libraries>
   </path>
@@ -85,8 +85,8 @@
   <path value="C:/Users/Administrator/.m2/repository/junit/junit/4.12/junit-4.12.jar"/>
   <path value="C:/Users/Administrator/.m2/repository/org/springframework/boot/spring-boot-starter-test/2.0.6.RELEASE/spring-boot-starter-test-2.0.6.RELEASE.jar"/>
   <path value="C:/Users/Administrator/.m2/repository/mysql/mysql-connector-java/5.1.47/mysql-connector-java-5.1.47.jar"/>
-  <path value="C:/Users/Administrator/.m2/repository/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.jar"/>
   <path value="C:/Users/Administrator/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/8.5.34/tomcat-embed-websocket-8.5.34.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.jar"/>
   <path value="C:/Users/Administrator/.m2/repository/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar"/>
   <path value="C:/Users/Administrator/.m2/repository/com/zaxxer/HikariCP/2.7.9/HikariCP-2.7.9.jar"/>
   <path value="C:/Users/Administrator/.m2/repository/org/skyscreamer/jsonassert/1.5.0/jsonassert-1.5.0.jar"/>
@@ -94,11 +94,11 @@
   <path value="C:/Users/Administrator/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"/>
   <path value="C:/Users/Administrator/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar"/>
   <path value="C:/Users/Administrator/.m2/repository/org/apache/logging/log4j/log4j-api/2.10.0/log4j-api-2.10.0.jar"/>
-  <path value="C:/Users/Administrator/.m2/repository/org/mockito/mockito-core/2.15.0/mockito-core-2.15.0.jar"/>
   <path value="C:/Users/Administrator/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/8.5.34/tomcat-embed-el-8.5.34.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/mockito/mockito-core/2.15.0/mockito-core-2.15.0.jar"/>
   <path value="C:/Users/Administrator/.m2/repository/com/baomidou/mybatis-plus-annotation/3.0.3/mybatis-plus-annotation-3.0.3.jar"/>
-  <path value="C:/Users/Administrator/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.0.6.RELEASE/spring-boot-starter-logging-2.0.6.RELEASE.jar"/>
   <path value="C:/Users/Administrator/.m2/repository/org/springframework/boot/spring-boot-starter-web/2.0.6.RELEASE/spring-boot-starter-web-2.0.6.RELEASE.jar"/>
+  <path value="C:/Users/Administrator/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.0.6.RELEASE/spring-boot-starter-logging-2.0.6.RELEASE.jar"/>
   <path value="C:/Users/Administrator/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/2.0.6.RELEASE/spring-boot-starter-jdbc-2.0.6.RELEASE.jar"/>
   <path value="C:/Users/Administrator/.m2/repository/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final.jar"/>
  </paths>
