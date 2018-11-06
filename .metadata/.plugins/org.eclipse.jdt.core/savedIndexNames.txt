@@ -37,7 +37,6 @@ INDEX VERSION 1.130+E:\MyStart\.metadata\.plugins\org.eclipse.jdt.core
 159982879.index
 1977689881.index
 1468347304.index
-888848918.index
 3983757432.index
 2054340688.index
 669401756.index
@@ -84,7 +83,6 @@ INDEX VERSION 1.130+E:\MyStart\.metadata\.plugins\org.eclipse.jdt.core
 937896422.index
 1624480933.index
 1083153494.index
-2197024372.index
 660799296.index
 4074339975.index
 4131241433.index
@@ -106,8 +104,6 @@ INDEX VERSION 1.130+E:\MyStart\.metadata\.plugins\org.eclipse.jdt.core
 1591432173.index
 3759701009.index
 987315861.index
-565651358.index
-2142276457.index
 1237158589.index
 3547479344.index
 3946825938.index
@@ -126,9 +122,7 @@ INDEX VERSION 1.130+E:\MyStart\.metadata\.plugins\org.eclipse.jdt.core
 914951698.index
 1283611434.index
 950204025.index
-510938339.index
 3672919020.index
-4272139699.index
 503585573.index
 2406348458.index
 411458312.index
@@ -158,7 +152,6 @@ INDEX VERSION 1.130+E:\MyStart\.metadata\.plugins\org.eclipse.jdt.core
 3491262578.index
 1144021965.index
 2486508142.index
-1295866349.index
 1132672344.index
 2321626142.index
 321385161.index
@@ -168,16 +161,13 @@ INDEX VERSION 1.130+E:\MyStart\.metadata\.plugins\org.eclipse.jdt.core
 968909515.index
 2417492206.index
 1732493787.index
-3026520905.index
 1363031837.index
 4202219500.index
 2940823809.index
-4231811196.index
 75137688.index
 1201555087.index
 551343943.index
 1158195272.index
-3303653140.index
 1106876317.index
 1436301694.index
 2469988061.index
@@ -257,13 +247,11 @@ INDEX VERSION 1.130+E:\MyStart\.metadata\.plugins\org.eclipse.jdt.core
 1153175701.index
 2728039575.index
 2068973028.index
-3165053923.index
 3182068816.index
 1667519549.index
 3929035745.index
 2400000591.index
 3442683509.index
-2462789524.index
 4115011166.index
 2410719238.index
 752053170.index
@@ -271,7 +259,6 @@ INDEX VERSION 1.130+E:\MyStart\.metadata\.plugins\org.eclipse.jdt.core
 2537511335.index
 1161922510.index
 3820447043.index
-1441313255.index
 568033678.index
 1075667935.index
 3140288096.index
@@ -282,10 +269,8 @@ INDEX VERSION 1.130+E:\MyStart\.metadata\.plugins\org.eclipse.jdt.core
 976852084.index
 2054732706.index
 121228785.index
-3449092099.index
 3084216935.index
 1547643434.index
-3821487002.index
 2263164435.index
 1676711817.index
 2318161620.index
@@ -298,7 +283,6 @@ INDEX VERSION 1.130+E:\MyStart\.metadata\.plugins\org.eclipse.jdt.core
 3179314579.index
 1992206642.index
 4049771326.index
-2217419722.index
 1362379183.index
 3222993743.index
 967080271.index
@@ -307,7 +291,6 @@ INDEX VERSION 1.130+E:\MyStart\.metadata\.plugins\org.eclipse.jdt.core
 4029947907.index
 4097273297.index
 2664233604.index
-4257042760.index
 1529394012.index
 4281501063.index
 1044058518.index
@@ -326,7 +309,6 @@ INDEX VERSION 1.130+E:\MyStart\.metadata\.plugins\org.eclipse.jdt.core
 1926832530.index
 3280730725.index
 1708961151.index
-3756607850.index
 2724351944.index
 2255227073.index
 2801358188.index
