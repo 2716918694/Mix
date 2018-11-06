@@ -9,7 +9,7 @@ public class SecurityUtils {
 
 	public static User getCurrentUser() {
 		Authentication auth = SecurityContextHolder.getContext().getAuthentication();
-		if (auth == null)
+		if (!(auth.getPrincipal() instanceof User))
 			return null;
 		return (User) auth.getPrincipal();
 	}

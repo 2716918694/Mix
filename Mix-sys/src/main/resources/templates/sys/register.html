@@ -5,6 +5,17 @@
 <title>注册</title>
 </head>
 <body>
-
+	<div class="container">
+		<form th:action="@{/sys/user/saveUser}" th:model="user">
+			<div class="requrieRow">
+				<span>用户名：</span><input type="text" th:value="username">
+			</div>
+			<div class="requrieRow">
+				<span>密码：</span><input type="password" th:value="password">
+			</div>
+			
+		</form>
+		
+	</div>
 </body>
 </html>

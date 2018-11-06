@@ -44,7 +44,7 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
 		// 所有请求均可访问
         http.authorizeRequests()
                 .antMatchers("/","/vendor/**","/css/**", "/js/**","/img/*","/images/**", "/webjars/**", "**/favicon.ico",
-                		"/register","/user/save","/register","/logout","/login","/static/**","/index")
+                		"/register","/sys/user/saveUser","/register","/logout","/login","/static/**","/index")
                 .permitAll().and()
                 .formLogin().loginPage("/login")//.loginProcessingUrl("/sys/user/confirm")
                 // 配置登录页面的表单 action 必须是 '/login', 用户名和密码的参数名必须是 'username' 和 'password'，

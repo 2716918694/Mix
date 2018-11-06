@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.session.SessionRegistry;
 import org.springframework.security.core.session.SessionRegistryImpl;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -59,12 +60,12 @@ public class UserController extends ApiController {
 	 * @return
 	 */
 	@PostMapping("/saveUser")
-	public Result<String> update(User user) {
+	public Result<String> update(@ModelAttribute(value = "user") User user) {
 		boolean result = userService.saveOrUpdate(user);
 		return success(result ? "over" : "no good");
 
 	}
-	
+
 	/**
 	 * 根据用户名获取用户
 	 * 
@@ -96,7 +97,7 @@ public class UserController extends ApiController {
 		return sessionRegistry.getAllPrincipals();
 
 	}
-	
+
 	// @Deprecated
 	// @PostMapping("/confirm")
 	// public boolean loginConfirm(String username, String password) {

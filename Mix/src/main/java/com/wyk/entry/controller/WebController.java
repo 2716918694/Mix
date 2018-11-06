@@ -28,6 +28,11 @@ public class WebController {
 		return "sys/login";
 	}
 
+	@RequestMapping("/register")
+	public String showRegister() {
+		return "sys/register";
+	}
+	
 	@GetMapping("/logout")
 	public String logoutPage(HttpServletRequest request, HttpServletResponse response) {
 		Authentication auth = SecurityContextHolder.getContext().getAuthentication();

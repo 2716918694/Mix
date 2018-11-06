@@ -7,6 +7,7 @@
 <body>
 	<div>
 		<div><a href="#" th:href="@{/index}">返回欢迎页面</a></div>
+		<div><a href="#" th:href="@{/register}">返回欢迎页面</a></div>
 		<form action="/login" method="post" role="form" class="col-xs-3" style="clear: both;
 			position: absolute;
 			text-align: center;
@@ -14,12 +15,12 @@
 			top: 46.8%;">
 		  <div class="form-group">
 		    <!-- <label for="name">姓名</label> -->
-		    <input type="text" class="form-control" id="username" name="username" placeholder="用户名">
+		    <input type="text" class="form-control" th:value="username" placeholder="用户名">
 			<p class="help-inline"></p>
 		  </div>
 		  <div class="form-group">
 		    <!-- <label for="inputfile">密码</label> -->
-		    <input type="password" class="form-control" id="password" name="password" placeholder="密&nbsp;&nbsp;码">
+		    <input type="password" class="form-control" th:value="password" placeholder="密&nbsp;&nbsp;码">
 		    <p class="help-inline"></p>
 		  </div>
 		  <button type="submit" class="btn btn-default" style="color: #fff;margin-top:6px; padding: 6px 30px;background-color: orange;">登录</button>
