@@ -27,7 +27,8 @@ public class GlobalExceptionHandler {
     @ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
     @ResponseBody
     public void notFount() {
-  
+    	System.err.println("not found");
+    	log.error("not found");
     }
 
     /**
@@ -37,7 +38,8 @@ public class GlobalExceptionHandler {
     @ResponseStatus(HttpStatus.UNAUTHORIZED)
     @ResponseBody
     public void credentials(UndeclaredThrowableException e) {
-       
+       System.out.println("Undeclared:"+e.getMessage());
+       log.error(e.getMessage());
     }
 
     /**
@@ -47,6 +49,7 @@ public class GlobalExceptionHandler {
     @ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
     @ResponseBody
     public void notFount(RuntimeException e) {
-     
+      System.out.println(e.getMessage());
+      log.error(e.getMessage());
     }
 }
